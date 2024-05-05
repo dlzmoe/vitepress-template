@@ -8,6 +8,5 @@ A template using vitepress.
 
 - [vite-plugin-vitepress-auto-sidebar](https://github.com/QC2168/vite-plugin-vitepress-auto-sidebar)
 - [vitepress-plugin-codeblocks-fold](https://github.com/T-miracle/vitepress-plugins)
-- [vitepress-plugin-comment-with-giscus](https://github.com/T-miracle/vitepress-plugin-comment-with-giscus)
 - [markdown-it-task-checkbox](https://github.com/linsir/markdown-it-task-checkbox)
 - [medium-zoom](https://github.com/francoischalifour/medium-zoom)
