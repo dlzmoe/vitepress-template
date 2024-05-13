@@ -1,4 +1,4 @@
-// import sidebar from './configs/sidebar';
+import sidebar from './configs/sidebar';
 import nav from './configs/nav';
 
 import AutoSidebar from 'vite-plugin-vitepress-auto-sidebar';
@@ -14,7 +14,7 @@ export default {
   vite: {
     plugins: [
       AutoSidebar({
-        collapsed: false,
+        collapsed: true,
         titleFromFile: true,
       }),
     ],
@@ -33,19 +33,17 @@ export default {
   },
   themeConfig: {
     siteTitle: 'vitepress-template💡',
-    // sidebar,
+    sidebar,
     nav,
     editLink: {
       pattern: 'https://github.com/dlzmoe/vitepress-template/blob/main/docs/:path',
-      text: 'Edit this article on GitHub'
+      text: '在 GitHub 上编辑此页面'
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/dlzmoe/vitepress-template' },
-      { icon: 'twitter', link: 'https://twitter.com/dlzmoe' },
-      { icon: 'discord', link: 'https://discord.gg/7u7kGgJhXF' },
     ],
-    lastUpdated: false,
-    lastUpdatedText: 'Update',
+    lastUpdated: true,
+    lastUpdatedText: '最后更新于',
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2020 - 2024 dlzmoe'

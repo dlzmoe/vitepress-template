@@ -7,10 +7,10 @@ function Guide() {
     { text: 'Start Read', link: '/guide/index' },
     {
       text: 'Introduce',
-      collapsed: false,
+      collapsed: true,
       items: [
         { text: 'Start Read', link: '/guide/index' },
-        { text: 'Nocomment', link: '/guide/nocomment' },
+        { text: 'Nocomment', link: '/guide/demo/nocomment' },
        
       ]
     },
